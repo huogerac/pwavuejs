@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      This is a PWA testing.
+      This is a PWA testing. v1.4
       <a
         href="https://github.com/huogerac/pwavuejs"
         target="_blank"
@@ -11,7 +11,7 @@
       >.
     </p>
     <p class="move-me supper-large">🚀</p>
-    <p>...</p>
+    <p>... ...</p>
   </div>
 </template>
 
