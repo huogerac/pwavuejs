@@ -18,10 +18,11 @@ if (process.env.NODE_ENV === 'production') {
     },
     updatefound() {
       console.log('New content is downloading, + refresh via href')
-    },
-    updated() {
-      console.log('New content is available; refreshing.')
       location.reload()
+    },
+    updated(registration) {
+      console.log('New content is available; refreshing.')
+      registration.waiting.postMessage({ type: 'SKIP_WAITING' })
     },
     offline() {
       console.log(
