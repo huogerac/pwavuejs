@@ -18,7 +18,6 @@ if (process.env.NODE_ENV === 'production') {
     },
     updatefound() {
       console.log('New content is downloading, + refresh via href')
-      location.href = location.href
     },
     updated() {
       console.log('New content is available; refreshing.')
