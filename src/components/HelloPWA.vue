@@ -3,8 +3,11 @@
     <h1>{{ msg }}</h1>
     <p>
       This is a PWA testing.
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
+      <a
+        href="https://github.com/huogerac/pwavuejs"
+        target="_blank"
+        rel="noopener"
+        >souce-code</a
       >.
     </p>
     <p class="move-me supper-large">🚀</p>
@@ -43,7 +46,7 @@ a {
   perspective: 1000px;
 }
 .supper-large {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 @keyframes shake {
