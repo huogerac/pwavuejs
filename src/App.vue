@@ -10,7 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="PWA App!" />
       <div class="center">
         <p class="move-me supper-large">🚀</p>
-        <p>Version: 0.0.2</p>
+        <p class="green">Version: 0.0.2</p>
+        <p><a href="https://github.com/huogerac/pwavuejs">Código Fonte</a></p>
       </div>
     </div>
   </header>
