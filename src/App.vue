@@ -8,13 +8,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="PWA App!" />
+      <div class="center">
+        <p class="move-me supper-large">🚀</p>
+        <p>Version: 0.0.2</p>
+      </div>
     </div>
   </header>
-
-  <main class="center">
-    <p class="move-me supper-large">🚀</p>
-    <p>Version: 0.0.1</p>
-  </main>
 </template>
 
 <style scoped>
