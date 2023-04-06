@@ -14,6 +14,10 @@ export default defineConfig({
         short_name: 'Vite PWA',
         background_color: '#cbff4d',
         theme_color: '#cbff4d',
+        workboxOptions: {
+          skipWaiting: true,
+          clientsClaim: true
+        },
         icons: [
           {
             src: '/icons/icon-512x512.png',
