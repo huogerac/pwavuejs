@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'My Vite PWA',
         short_name: 'Vite PWA',
-        background_color: '#cbff4d',
+        background_color: '#ffffff',
         theme_color: '#cbff4d',
         workboxOptions: {
           skipWaiting: true,
